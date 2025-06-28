@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
       - name: productpage
-        image: vtahdo/productpage:modificado
+        image: vtahdo/productpage:v8
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
